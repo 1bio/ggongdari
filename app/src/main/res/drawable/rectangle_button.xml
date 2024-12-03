@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#87CEEB" /> <!-- 하늘색 배경색 -->
+    <corners android:radius="0dp" /> <!-- 모서리 반경 0dp로 완전한 사각형 -->
+</shape>

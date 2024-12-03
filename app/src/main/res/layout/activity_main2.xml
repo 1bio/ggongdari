@@ -35,19 +35,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.217" />
 
+    <!--이미지 뷰 추가-->
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.668"
+        app:layout_constraintVertical_bias="0.67"
         app:srcCompat="@drawable/rectangle_button"
-        tools:layout_editor_absoluteX="15dp" />
-
-    <!--이미지 뷰 추가-->
+        tools:layout_editor_absoluteX="20dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -62,6 +60,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.423" />
+
 
     <ImageView
         android:id="@+id/imageView3"
@@ -114,41 +113,53 @@
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:layout_constraintVertical_bias="0.225" />
-
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/calenderBtn_layout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="캘린더"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintVertical_bias="0.997" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/homeBtn_layout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="홈"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintVertical_bias="0.997" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/settingBtn_layout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="설정"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintVertical_bias="0.997" />
+
+    <Button
+        android:id="@+id/recordBtn_layoyt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
